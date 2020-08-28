@@ -1,14 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2020-08-28T06:16:17.425Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3775.400 QQBrowser/10.6.4208.400" etag="ZcZymU-Ffdk41f_UzhfE" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-28T06:29:57.455Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3775.400 QQBrowser/10.6.4208.400" etag="3oPN4zEM6mQVrQ2X4bLv" version="13.6.5" type="github">
   <diagram id="26kdJRuqCQegP6NZ71eM" name="Page-1">
     <mxGraphModel dx="1331" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SZ_c_wbg-18-UfX0OG9w-2" value="ha_innobase::write_row" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SZ_c_wbg-18-UfX0OG9w-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SZ_c_wbg-18-UfX0OG9w-2" target="SZ_c_wbg-18-UfX0OG9w-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZ_c_wbg-18-UfX0OG9w-2" value="&lt;b&gt;ha_innobase::write_row&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="80" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SZ_c_wbg-18-UfX0OG9w-4" value="row_insert_for_mysql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SZ_c_wbg-18-UfX0OG9w-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SZ_c_wbg-18-UfX0OG9w-4" target="SZ_c_wbg-18-UfX0OG9w-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZ_c_wbg-18-UfX0OG9w-4" value="&lt;b&gt;row_insert_for_mysql&lt;/b&gt;&lt;br&gt;mysql_rec为server层的记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZ_c_wbg-18-UfX0OG9w-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SZ_c_wbg-18-UfX0OG9w-6" target="SZ_c_wbg-18-UfX0OG9w-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZ_c_wbg-18-UfX0OG9w-6" value="&lt;b&gt;row_insert_for_mysql_using_ins_graph&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="230" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SZ_c_wbg-18-UfX0OG9w-10" value="&lt;b&gt;row_get_prebuilt_insert_row(row_prebuilt_t*&lt;span&gt;	&lt;/span&gt;prebuilt)&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(26 , 26 , 26) ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;函数主要就是为m_prebuilt-&amp;gt;ins_node 各成员赋值的，ins_node_t 结构体上文介绍过，其成员变量dtuple_t 是record 在innodb 保存的格式，创建dtuple_t 的时候也一块创建了n_fields 个 dfield_t 对象，dfield_t 对象在dtuple_t 结构尾部。&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="430" width="300" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
