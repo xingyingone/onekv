@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T08:00:15.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="z0ayKA5oIxFgA5IXe0Px" version="13.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-02T09:28:30.591Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Ztr3YbInAeH5_q-Jq31O" version="13.8.8" type="github">
   <diagram id="q9ZO_1OuuIrNF0Mv1bYy" name="Page-1">
     <mxGraphModel dx="1422" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,9 +46,6 @@
         <mxCell id="ESAg_G1ONVsVVt7TLx9m-15" value="&amp;nbsp;ulint m_n_reserved" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="360" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ESAg_G1ONVsVVt7TLx9m-16" value="vector&amp;lt;io_event&amp;gt; IOEvents" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="390" width="200" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="ESAg_G1ONVsVVt7TLx9m-17" value="io_context_t *m_aio_ctx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="420" width="200" height="30" as="geometry" />
         </mxCell>
@@ -68,19 +65,34 @@
           <mxGeometry x="200" y="570" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ESAg_G1ONVsVVt7TLx9m-23" value="static AIO *s_sync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="600" width="200" height="30" as="geometry" />
+          <mxGeometry x="200" y="570" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ESAg_G1ONVsVVt7TLx9m-24" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="400" y="480" width="50" height="120" as="geometry" />
+          <mxGeometry x="400" y="450" width="50" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ESAg_G1ONVsVVt7TLx9m-25" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=west;" vertex="1" parent="1">
           <mxGeometry x="650" y="270" width="50" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ESAg_G1ONVsVVt7TLx9m-26" value="不同种类的io线程对应不同的AIO实例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="510" width="110" height="60" as="geometry" />
+          <mxGeometry x="460" y="480" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ESAg_G1ONVsVVt7TLx9m-27" value="静态方法进行全局控制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ESAg_G1ONVsVVt7TLx9m-28" value="io_context_t *m_aio_ctx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="390" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ESAg_G1ONVsVVt7TLx9m-29" value="vector&amp;lt;io_event&amp;gt; m_events" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="420" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ESAg_G1ONVsVVt7TLx9m-30" value="static AIO *s_ibuf" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="450" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ESAg_G1ONVsVVt7TLx9m-31" value="static AIO *s_log" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ESAg_G1ONVsVVt7TLx9m-32" value="static AIO *s_reads" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
