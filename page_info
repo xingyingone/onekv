@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-24T10:54:02.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="_2eaWfWgQxfwVUmoUviK" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-24T10:55:01.781Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="W0Opu4RPxD4wcX-mdFXI" version="13.9.9" type="github">
   <diagram id="uAQOlWJzKup-tvWyAOvO" name="Page-1">
     <mxGraphModel dx="1662" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -292,14 +292,14 @@
         <mxCell id="oBKYqgrQT25HVNw3bfx1-137" value="&lt;span style=&quot;text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;b&gt;FSEG_HDR_OFFSET(2)&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="1340" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oBKYqgrQT25HVNw3bfx1-138" value="&lt;b&gt;描述segment的inode page所在的space id&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="475" y="1285" width="240" height="20" as="geometry" />
+        <mxCell id="oBKYqgrQT25HVNw3bfx1-138" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;描述segment的inode page所在的space id&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="1285" width="275" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="oBKYqgrQT25HVNw3bfx1-139" value="&lt;b&gt;描述segment的inode page所在的page no&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="475" y="1320" width="240" height="20" as="geometry" />
+        <mxCell id="oBKYqgrQT25HVNw3bfx1-139" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;描述segment的inode page所在的page no&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="1320" width="275" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="oBKYqgrQT25HVNw3bfx1-140" value="&lt;b&gt;inode page内的页内偏移&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="1350" width="140" height="20" as="geometry" />
+        <mxCell id="oBKYqgrQT25HVNw3bfx1-140" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;inode page内的页内偏移&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="1350" width="170" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
